@@ -1,0 +1,191 @@
+:root{
+    padding: 0px;
+    margin: 0px;
+    background-color: rgb(233, 233, 233);
+}
+#marco{
+    display: flex;
+    flex-direction: column;
+    width: 88%;
+    justify-self: center;
+    padding: 20px;
+    margin: 20px;
+    border: 1px dotted black;
+    background-image: url(imagenes/fondo.jpg);
+    justify-content: center;
+    align-items: center;
+}
+#encabezado{
+    justify-self: center;
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 97%;
+    margin-top: 10px;
+}
+#encabezado img{
+    border-radius: 100%;
+    width: 60%;
+}
+#encabezado>div>h1{
+    font-size: 50px;
+    color: rgb(0, 183, 255);
+    background-color: white;
+    text-shadow: 2px 20px 18px rgb(105, 104, 104);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#hecho{
+    align-self: self-end;
+    font-family: Roboto;
+    font-style: italic;
+}
+#hecho2{
+    background-color: white;
+    color: rgb(41, 41, 41)
+}
+span{
+    font-style: italic;
+}
+#cab{
+    width: 97%;
+    border: 1px solid black;
+}
+.xd{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    width: 30%;
+    border: 1px solid white;
+    align-content: space-between;
+    border: 2px solid black;
+    padding: 5px;
+}
+.xd img{
+    width: 50%;
+    align-self: center;
+    justify-content: center;
+}
+.cv{
+    display: flex;
+    flex-direction: row;
+    border: 4px solid rgb(63, 62, 62);
+    justify-content: space-evenly;
+    padding: 8px;
+    margin: 10px;
+}
+.hachi{
+    background-color: #e34c26;
+    color: white;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    font-family: Roboto;
+    width: 95%;
+}
+.cesi{
+    background-color: #264de4;
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    width: 95%;
+    align-self: center;
+}
+.javi{
+    background-color: rgb(127, 170, 42);
+    color: white;
+    text-align: center;
+    font-family: Roboto;
+    width: 95%;
+    align-self: center;
+}
+#casita{
+    justify-self: center;
+    margin-bottom: 20px;
+}
+#casita img{
+    width: 50%;
+    box-shadow: 15px 15px 10px rgb(105, 104, 104);
+}
+#contenido{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    width: 97%;
+}
+#contenido img{
+    justify-content: center;
+    align-content: center;
+}
+#pie>div{
+    border-radius: 5px;
+    text-align: center;
+    background-color: white;
+    box-shadow: 1px 1px 20px 1px rgb(105, 104, 104);
+    width: 90%;
+    align-self: center;
+}
+#pie{
+    display: flex;
+    flex-direction: column;
+}
+#pi{
+    width: 95%;
+    border: 1px solid black;
+    align-self: center;
+}
+p{
+    font-family: Roboto;
+    font-size: 22px;
+    text-align: left;
+    color: rgb(65, 65, 65);
+}
+h2{
+    font-family: Roboto;
+    color: rgb(53, 53, 53);
+    font-style: italic;
+}
+.justificar{
+    text-align: justify;
+    width: 95%;
+    justify-self: center;
+    align-self: center;
+}
+.pequeño{
+    font-size: 20px;
+}
+#rojo{
+    background-color: #ffede8;
+}
+#rojo2{
+    background-color: #ffede8;
+}
+#azul{
+    background-color: #e6ebff;
+}
+#azul2{
+    background-color: #e6ebff;
+}
+#verde{
+    background-color: rgb(240, 245, 229);
+}
+#verde2{
+    background-color: rgb(240, 245, 229);
+}
+.imagen{
+    width: 100%;
+    justify-self: center;
+    align-self: center;
+}
+#el1{
+    font-size: 20px;
+    height: 50px;
+    align-content: center;
+}
+#final{
+    text-align: center;
+    font-style: italic;
+}
